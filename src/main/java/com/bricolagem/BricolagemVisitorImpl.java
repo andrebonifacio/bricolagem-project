@@ -68,7 +68,7 @@ public class BricolagemVisitorImpl extends BricolagemParserBaseVisitor<String> {
         StringBuilder html = new StringBuilder("<ul>");
         for (var obj : objetivos) {
             var id = obj.getChild(0).getText();
-            var texto = obj.getChild(2).getText(); // ID ':' STRING
+            var texto = obj.getChild(2).getText();
             html.append("<li>").append(id).append(": ").append(texto).append("</li>");
         }
         html.append("</ul>");
@@ -80,16 +80,10 @@ public class BricolagemVisitorImpl extends BricolagemParserBaseVisitor<String> {
         StringBuilder html = new StringBuilder("<h2>Atividades</h2>");
 
         for (var atividade : ctx.listaAtividades().atividade()) {
-            // Título da atividade
             String titulo = atividade.STRING(0).getText();
-
-            // Descrição
             String descricao = stripQuotes(atividade.STRING(1).getText());
-
-            // Duração (como texto)
             String duracao = atividade.NUMERO().getText();
 
-            // Passos (múltiplos STRINGs após a palavra-chave Passos)
             html.append("<div><p><strong>Atividade:</strong> ").append(stripQuotes(titulo)).append("</p>");
             html.append("<p><strong>Descrição:</strong> ").append(descricao).append("</p>");
             html.append("<p><strong>Duração:</strong> ").append(duracao).append(" minutos</p><ul>");
@@ -108,7 +102,7 @@ public class BricolagemVisitorImpl extends BricolagemParserBaseVisitor<String> {
     public String visitAvaliacao(BricolagemParser.AvaliacaoContext ctx) {
         StringBuilder html = new StringBuilder("<h2>Avaliação</h2>");
 
-        var strings = ctx.STRING();  // todos os elementos "entre aspas" do trecho de avaliação
+        var strings = ctx.STRING();
         int metade = strings.size() / 2;
 
         html.append("<h3>Critérios</h3><ul>");
