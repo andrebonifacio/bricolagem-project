@@ -1,0 +1,45 @@
+ProjetoMaker {
+Nivel: "Ensino Fundamental II",
+Tema: "Oficina de Impressão 3D – Criando Soluções Sustentáveis",
+
+ObjetivoEnsino: [
+OE.1: "Promover a cultura maker através da prototipagem digital e física",
+OE.2: "Estimular a resolução colaborativa de problemas reais utilizando tecnologia 3D"
+],
+
+ObjetivoAprendizagem: [
+OA.1: "Utilizar ferramentas de modelagem digital 3D para criar objetos práticos",
+OA.2: "Relacionar conceitos de sustentabilidade com a inovação proporcionada pela impressão 3D"
+],
+
+ObjetivoPesquisa: [
+OP.1: "Investigar o impacto do uso de tecnologias como impressão 3D na motivação e envolvimento dos estudantes em sala de aula"
+],
+
+ObjetivoEducacional: [
+OED.1: "Alinhar as atividades à competência BNCC 'EM13CHS101' (empreendedorismo e inovação tecnológica)"
+],
+
+Atividades: [
+"Projetando e Imprimindo Sustentabilidade": {
+Descricao: "Projetar e imprimir um objeto sustentável com impressora 3D",
+Duracao: 180 minutos,
+Passos: [
+"Introduzir conceitos básicos sobre sustentabilidade e impressão 3D",
+"Demonstrar ferramentas digitais para modelagem 3D (Ex: Tinkercad)",
+"Formar grupos para identificar necessidades locais relacionadas à sustentabilidade",
+"Projetar um objeto funcional que atenda a essas necessidades",
+"Imprimir protótipos dos objetos criados pelos estudantes"
+]
+}
+],
+
+Avaliacao: {
+Criterios: ["Criatividade", "Sustentabilidade", "Colaboração", "Funcionalidade"],
+Instrumentos: ["Portfólio Digital com imagens do processo de modelagem e impressão", "Rubrica de autoavaliação e avaliação entre pares"]
+},
+
+Recursos: ["Computadores ou tablets", "Software de modelagem 3D (Tinkercad, Blender)", "Impressora 3D", "Filamento biodegradável (PLA)", "Cadernos ou portfólios digitais"],
+
+ConformidadeBNCC: [EM13CHS101, EF04CI05]
+}

@@ -1,0 +1,67 @@
+ProjetoMaker {
+  Nivel: "Ensino Fundamental II (6º ao 9º ano)",
+  Tema: "Oficina de Costura Maker",
+  
+  ObjetivoEnsino: [
+    OE.1: "Introduzir técnicas básicas de costura manual.",
+    OE.2: "Promover sustentabilidade através do upcycling.",
+    OE.3: "Desenvolver habilidades manuais e criativas."
+  ],
+  
+  ObjetivoAprendizagem: [
+    OA.1: "Aprender pontos básicos de costura.",
+    OA.2: "Criar produto funcional (eco bag/necessaire).",
+    OA.3: "Aplicar princípios de design sustentável.",
+    OA.4: "Trabalhar medidas e proporções."
+  ],
+  
+  ObjetivoPesquisa: [
+    OP.1: "Investigar técnicas de reaproveitamento têxtil.",
+    OP.2: "Pesquisar sobre fast fashion e impacto ambiental."
+  ],
+  
+  ObjetivoEducacional: [
+    OED.1: "Alinhar às competências BNCC EF89ER01 (Consumo consciente).",
+    OED.2: "Desenvolver competência 7 (Argumentação - EF08ER03).",
+    OED.3: "Trabalhar competência 10 (Responsabilidade social)."
+  ],
+  
+  Atividades: [
+    "Oficina de pontos": {
+      Descricao: "Aprendizado técnico básico",
+      Duracao: 30 minutos,
+      Passos: [
+        "Demonstração de pontos (caseado, overlock)",
+        "Prática em tecido de reaproveitamento",
+        "Correção coletiva de técnicas"
+      ]
+    },
+    "Projeto sustentável": {
+      Descricao: "Criação de produto funcional",
+      Duracao: 60 minutos,
+      Passos: [
+        "Planejamento do produto",
+        "Corte e montagem",
+        "Customização criativa"
+      ]
+    },
+    "Feira de trocas": {
+      Descricao: "Socialização dos produtos",
+      Duracao: 30 minutos,
+      Passos: [
+        "Exposição dos trabalhos",
+        "Rodada de feedback",
+        "Reflexão sobre processo criativo"
+      ]
+    }
+  ],
+  
+  Avaliacao: {
+    Criterios: ["Domínio das técnicas básicas", "Qualidade do produto final", "Originalidade na customização", "Engajamento sustentável"],
+    Instrumentos: ["Portfólio de processos", "Ficha de avaliação técnica", "Registro fotográfico", "Relatório reflexivo"]
+  },
+  
+  Recursos: ["Kits de costura (agulhas, linhas, tesouras)", "Tecidos reciclados (retalhos, roupas usadas)", "Moldes básicos em papel kraft", "Materiais para customização (tintas, botões)", "Guia ilustrado de pontos"],
+  
+  ConformidadeBNCC: [EF89ER01, EF08GE11, EF69AR15],
+}

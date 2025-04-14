@@ -1,0 +1,43 @@
+ProjetoMaker {
+  Nivel: "Ensino Fundamental II",
+  Tema: "Robótica Sustentável",
+  
+  ObjetivoEnsino: [
+    OE.1: "Promover a cultura do 'aprender fazendo' através de prototipagem",
+    OE.2: "Estimular a resolução colaborativa de problemas"
+  ],
+  
+  ObjetivoAprendizagem: [
+    OA.1: "Aplicar conceitos de circuitos elétricos em protótipos",
+    OA.2: "Relacionar reciclagem e inovação tecnológica"
+  ],
+  
+  ObjetivoPesquisa: [
+    OP.1: "Analisar o impacto da abordagem maker na motivação dos estudantes"
+  ],
+  
+  ObjetivoEducacional: [
+    OED.1: "Alinhar projeto à competência BNCC 'EM13CHS101' (empreendedorismo)"
+  ],
+  
+  Atividades: [
+    "Robô de Papelão": {
+      Descricao: "Construir um robô móvel com materiais recicláveis",
+      Duracao: 120 minutos,
+      Passos: [
+        "Discutir conceitos de sustentabilidade",
+        "Prototipar estrutura com caixas de papelão",
+        "Montar circuito simples com motor DC"
+      ]
+    }
+  ],
+  
+  Avaliacao: {
+    Criterios: ["Criatividade", "Funcionalidade", "Colaboração"],
+    Instrumentos: ["Portfólio fotográfico", "Rubrica de autoavaliação"]
+  },
+  
+  Recursos: ["Papelão", "Motores DC", "Fitas isolantes", "Pilhas"],
+  
+  ConformidadeBNCC: [EM13CHS101, EF04CI05],
+}

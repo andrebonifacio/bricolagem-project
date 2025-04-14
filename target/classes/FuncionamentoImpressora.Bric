@@ -1,0 +1,73 @@
+ProjetoMaker {
+  Nivel: "Ensino Fundamental II",
+  Tema: "Funcionamento e componentes de uma impressora 3D",
+  
+  ObjetivoEnsino: [
+    OE.1: "Introduzir os princípios básicos da impressão 3D, seus componentes e funcionamento.",
+    OE.2: "Incentivar a criatividade e a resolução de problemas.",
+    OE.3: "Promover a cultura maker através da tecnologia digital."
+  ],
+  
+  ObjetivoAprendizagem: [
+    OA.1: "Compreender como uma impressora 3D funciona.",
+    OA.2: "Identificar os principais componentes (extrusor, filamento, mesa de impressão, etc.).",
+    OA.3: "Relacionar a impressão 3D com aplicações reais (prototipagem, medicina, engenharia).",
+    OA.4: "Desenvolver habilidades básicas de modelagem 3D."
+  ],
+  
+  ObjetivoPesquisa: [
+    OP.1: "Investigar diferentes tipos de impressoras 3D e materiais utilizados.",
+    OP.2: "Pesquisar aplicações da impressão 3D em diferentes áreas profissionais."
+  ],
+  
+  ObjetivoEducacional: [
+    OED.1: "Alinhar projeto às competências BNCC EF07CI01, EF08CI01 (Pensamento científico, crítico e criativo).",
+    OED.2: "Alinhar projeto às competências BNCC EF67LP25, EF69LP42 (Cultura digital).",
+    OED.3: "Desenvolver a competência geral 5 da BNCC (Cultura Digital)."
+  ],
+  
+  Atividades: [
+  "Aula expositiva e demonstração": {
+    Descricao: "Introdução teórica aos conceitos de impressão 3D",
+    Duracao: 20 minutos,
+    Passos: [
+      "Apresentar os componentes da impressora 3D",
+      "Explicar o processo de modelagem e impressão",
+      "Mostrar exemplos de objetos impressos"
+    ]
+  },
+  "Montagem simulada": {
+    Descricao: "Atividade prática de identificação de componentes",
+    Duracao: 30 minutos,
+    Passos: [
+      "Dividir a turma em grupos",
+      "Fornecer diagrama da impressora para identificação das partes",
+      "Debater funções de cada componente"
+    ]
+  },
+  "Desafio maker": {
+    Descricao: "Criação de objeto simples em software 3D",
+    Duracao: 40 minutos,
+    Passos: [
+      "Usar software Tinkercad para modelar um objeto",
+      "Simular o processo de impressão",
+      "Compartilhar resultados com a turma"
+    ]
+  }
+]
+  
+  Avaliacao: {
+    Criterios: ["Participação ativa nas atividades", "Identificação correta dos componentes", "Qualidade do objeto modelado", "Engajamento no trabalho em equipe"],
+    Instrumentos: ["Lista de verificação", "Relatório em grupo", "Autoavaliação", "Apresentação dos trabalhos"]
+  },
+  
+  Recursos: [
+    "Impressora 3D (ou vídeos demonstrativos)",
+    "Software Tinkercad (computadores ou tablets)",
+    "Diagrama da impressora 3D",
+    "Amostras de objetos impressos",
+    "Materiais de apoio (apostila digital)"
+  ],
+  
+  ConformidadeBNCC: [EF07CI01, EF08CI01, EF67LP25, EF69LP42]
+}

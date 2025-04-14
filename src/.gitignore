@@ -1,0 +1,14 @@
+# IntelliJ / VSCode
+.idea/
+.vscode/
+
+# Maven
+target/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Credenciais
+.env
