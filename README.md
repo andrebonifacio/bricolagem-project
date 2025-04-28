@@ -1,7 +1,7 @@
 # bricolagem-project
 
 Bricolagem é uma linguagem específica de domínio (DSL) voltada para a criação rápida e padronizada de planos de aula.
-Ela foi desenvolvida para auxiliar professores na organização de atividades educativas, integrando objetivos da BNCC e promovendo agilidade no planejamento pedagógico.
+Ela foi desenvolvida pelo professor Jorge Fernandes para auxiliar professores na organização de atividades educativas, integrando objetivos da BNCC e promovendo agilidade no planejamento pedagógico.
 
 O projeto usa ANTLR para interpretar a linguagem e gerar automaticamente planos em HTML, com suporte à geração de imagens via Inteligência Artificial para ilustrar o conteúdo.
 
