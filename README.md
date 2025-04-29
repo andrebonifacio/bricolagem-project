@@ -130,3 +130,100 @@ ProjetoMaker {
   ConformidadeBNCC: [...]
 }
 
+```
+### AULA 2: Produção Audiovisual: Criando um canal no YouTube
+
+```
+ProjetoMaker {
+  Nivel: "Ensino Fundamental II (6º ao 9º ano)",
+  Tema: "Produção Audiovisual: Criando um canal no YouTube",
+  
+  ObjetivoEnsino: [
+    OE.1: "Ensinar fundamentos de produção audiovisual digital.",
+    OE.2: "Desenvolver habilidades de comunicação multimodal.",
+    OE.3: "Promover uso crítico e criativo de plataformas digitais."
+  ],
+  
+  ObjetivoAprendizagem: [
+    OA.1: "Entender etapas de produção de vídeo (roteiro, gravação, edição).",
+    OA.2: "Criar conteúdo audiovisual básico.",
+    OA.3: "Publicar vídeo em ambiente simulado ou real.",
+    OA.4: "Analisar criticamente conteúdos digitais."
+  ],
+  
+  ObjetivoPesquisa: [
+    OP.1: "Investigar formatos de vídeos educacionais.",
+    OP.2: "Pesquisar técnicas de engajamento audiovisual."
+  ],
+  
+  ObjetivoEducacional: [
+    OED.1: "Alinhar às competências BNCC EF69LP42, EF69AR25 (Linguagens e tecnologias).",
+    OED.2: "Desenvolver competência 5 da BNCC (Cultura Digital - EF67LP25).",
+    OED.3: "Trabalhar competência 9 (Empatia e cooperação)."
+  ],
+  
+  Atividades: [
+    {
+      Nome: "Planejamento de canal",
+      Descricao: "Definição de nicho e público-alvo",
+      Duracao: 30,
+      Passos: [
+        "Brainstorming de temas possíveis",
+        "Análise de exemplos de canais educacionais",
+        "Definição de identidade visual básica"
+      ]
+    },
+    {
+      Nome: "Produção prática",
+      Descricao: "Gravação de vídeo-curta",
+      Duracao: 50,
+      Passos: [
+        "Roteirização coletiva",
+        "Gravação com dispositivos móveis",
+        "Noções básicas de enquadramento"
+      ]
+    },
+    {
+      Nome: "Edição colaborativa",
+      Descricao: "Processo pós-produção",
+      Duracao: 40,
+      Passos: [
+        "Uso de apps de edição (CapCut)",
+        "Inclusão de elementos multimídia",
+        "Exportação do produto final"
+      ]
+    }
+  ],
+  
+  Avaliacao: {
+    Criterios: [
+      "Clareza da mensagem",
+      "Qualidade técnica básica",
+      "Trabalho colaborativo",
+      "Criatividade na abordagem"
+    ],
+    Instrumentos: [
+      "Rubrica analítica",
+      "Portfólio digital",
+      "Checklist de competências",
+      "Feedback entre pares"
+    ]
+  },
+  
+  Recursos: [
+    "Dispositivos móveis com câmera",
+    "Aplicativos de edição (CapCut, FilmoraGo)",
+    "Computadores com internet",
+    "Roteiro guia (template)",
+    "Lista de verificação técnica"
+  ],
+  
+  ConformidadeBNCC: [
+    "Competência 1 (EF69LP42): Linguagens digitais",
+    "Competência 5 (EF67LP25): Cultura digital",
+    "Competência 9 (EF69AR25): Cooperação criativa"
+  ]
+}
+
+
+
