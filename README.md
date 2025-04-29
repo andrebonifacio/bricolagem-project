@@ -326,6 +326,27 @@ Com os planos em mãos, os arquivos .Bric foram criados e utilizados na aplicaç
 
 ![Plano de Aula 1](assets/1.png)
 
+![Plano de Aula 1](assets/2.png)
+
+![Plano de Aula 1](assets/3.png)
+
+![Plano de Aula 1](assets/4.png)
+
+![Plano de Aula 2](assets/1-2.png)
+
+![Plano de Aula 2](assets/2-2.png)
+
+![Plano de Aula 2](assets/3-2.png)
+
+![Plano de Aula 3](assets/1-3.png)
+
+![Plano de Aula 3](assets/2-3.png)
+
+![Plano de Aula 3](assets/3-3.png)
+
+![Plano de Aula 3](assets/4-3.png)
+
+
 
 ## Considerações Finais
 
