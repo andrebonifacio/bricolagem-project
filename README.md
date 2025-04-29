@@ -225,5 +225,112 @@ ProjetoMaker {
   ]
 }
 
+```
+### AULA 3: Oficina de Costura Maker
+
+```
+
+ProjetoMaker {
+  Nivel: "Ensino Fundamental II (6º ao 9º ano)",
+  Tema: "Oficina de Costura Maker",
+  
+  ObjetivoEnsino: [
+    OE.1: "Introduzir técnicas básicas de costura manual.",
+    OE.2: "Promover sustentabilidade através do upcycling.",
+    OE.3: "Desenvolver habilidades manuais e criativas."
+  ],
+  
+  ObjetivoAprendizagem: [
+    OA.1: "Aprender pontos básicos de costura.",
+    OA.2: "Criar produto funcional (eco bag/necessaire).",
+    OA.3: "Aplicar princípios de design sustentável.",
+    OA.4: "Trabalhar medidas e proporções."
+  ],
+  
+  ObjetivoPesquisa: [
+    OP.1: "Investigar técnicas de reaproveitamento têxtil.",
+    OP.2: "Pesquisar sobre fast fashion e impacto ambiental."
+  ],
+  
+  ObjetivoEducacional: [
+    OED.1: "Alinhar às competências BNCC EF89ER01 (Consumo consciente).",
+    OED.2: "Desenvolver competência 7 (Argumentação - EF08ER03).",
+    OED.3: "Trabalhar competência 10 (Responsabilidade social)."
+  ],
+  
+  Atividades: [
+    {
+      Nome: "Oficina de pontos",
+      Descricao: "Aprendizado técnico básico",
+      Duracao: 30,
+      Passos: [
+        "Demonstração de pontos (caseado, overlock)",
+        "Prática em tecido de reaproveitamento",
+        "Correção coletiva de técnicas"
+      ]
+    },
+    {
+      Nome: "Projeto sustentável",
+      Descricao: "Criação de produto funcional",
+      Duracao: 60,
+      Passos: [
+        "Planejamento do produto",
+        "Corte e montagem",
+        "Customização criativa"
+      ]
+    },
+    {
+      Nome: "Feira de trocas",
+      Descricao: "Socialização dos produtos",
+      Duracao: 30,
+      Passos: [
+        "Exposição dos trabalhos",
+        "Rodada de feedback",
+        "Reflexão sobre processo criativo"
+      ]
+    }
+  ],
+  
+  Avaliacao: {
+    Criterios: [
+      "Domínio das técnicas básicas",
+      "Qualidade do produto final",
+      "Originalidade na customização",
+      "Engajamento sustentável"
+    ],
+    Instrumentos: [
+      "Portfólio de processos",
+      "Ficha de avaliação técnica",
+      "Registro fotográfico",
+      "Relatório reflexivo"
+    ]
+  },
+  
+  Recursos: [
+    "Kits de costura (agulhas, linhas, tesouras)",
+    "Tecidos reciclados (retalhos, roupas usadas)",
+    "Moldes básicos em papel kraft",
+    "Materiais para customização (tintas, botões)",
+    "Guia ilustrado de pontos"
+  ],
+  
+  ConformidadeBNCC: [
+    "Competência 7 (EF89ER01): Sustentabilidade",
+    "Competência 10 (EF08GE11): Responsabilidade socioambiental",
+    "Competência 3 (EF69AR15): Repertório cultural"
+  ]
+}
+```
+Com os planos em mãos, os arquivos .Bric foram criados e utilizados na aplicação se geraram o seguinte resultado:
+
+
+## Considerações Finais
+
+A partir dessa experiência, foi possível concluir que o uso da DSL Bricolagem pode permitir agilidade ao professor na criação dos planos de aula, uma vez que a DSL, com seu alto nível de abstração, possibilita a descrição rápida e padronizada para resolução de algum problema, sem aprofundar em detalhes técnicos da programação, de certa forma esse aspecto pode poupar tempo do professor ao produzir os planos de aula, o que é muito útil em um contexto de alta carga por parte do docente. A utilização da DSL também ajuda a organizar os planos de maneira clara e estruturada, garantindo que os objetivos de aprendizagem, educacionais e de ensino estejam sempre presentes, a utilização da IA também possibilita sugestões de novas ideias e propostas que talvez o professor não tenha considerado, a geração automática de imagens também é um ponto positivo, pois ajuda a elucidar melhor o contexto da aula e sumarizar o conteúdo de forma visual, além de facilitar a compreensão por parte dos alunos, mas também em algumas situações as imagens geradas podem não representar fielmente os contextos escolares reais, inclusive alterando contextos sócio-econômicos e culturais e isso é um ponto de atenção, há também o fato de que o professor deve ser uma figura crítica e em constante reflexão e o uso desenfreado da IA pode enfraquecer essas habilidades, a IA deve ser usada como uma ferramenta para auxiliar nas tarefas e não ser o único instrumento de trabalho, ao meu ver o uso da IA pode causar dependência e reduzir o desenvolvimento e autonomia do professor se não for utilizada com consciência.
+Dessa forma, é fundamental compreender que a Inteligência Artificial e a DSL Bricolagem devem ser encaradas como aliadas do trabalho docente, e não como substitutas da prática pedagógica intencional, sensível e contextualizada. O planejamento educacional envolve múltiplas dimensões: cognitivas, emocionais, culturais e sociais, que não podem ser plenamente captadas por uma ferramenta automatizada. Assim, cabe ao professor atuar como curador do conteúdo gerado, adaptando-o à realidade da sua turma, aos objetivos curriculares e às especificidades do seu contexto escolar.
+
+Como sugestão de melhorias futuras da aplicação, é necessário enriquecer melhor os prompts que geram as imagens, pois foram encontradas dificuldades na geração de boas imagens, a maioria delas ficaram borradas, com frases em inglês mesmo pedindo a IA para gerar em PT-BR.
+
+
 
 
