@@ -324,6 +324,9 @@ ProjetoMaker {
 Com os planos em mãos, os arquivos .Bric foram criados e utilizados na aplicação se geraram o seguinte resultado:
 
 
+![Plano de Aula 1](assets/1.png)
+
+
 ## Considerações Finais
 
 A partir dessa experiência, foi possível concluir que o uso da DSL Bricolagem pode permitir agilidade ao professor na criação dos planos de aula, uma vez que a DSL, com seu alto nível de abstração, possibilita a descrição rápida e padronizada para resolução de algum problema, sem aprofundar em detalhes técnicos da programação, de certa forma esse aspecto pode poupar tempo do professor ao produzir os planos de aula, o que é muito útil em um contexto de alta carga por parte do docente. A utilização da DSL também ajuda a organizar os planos de maneira clara e estruturada, garantindo que os objetivos de aprendizagem, educacionais e de ensino estejam sempre presentes, a utilização da IA também possibilita sugestões de novas ideias e propostas que talvez o professor não tenha considerado, a geração automática de imagens também é um ponto positivo, pois ajuda a elucidar melhor o contexto da aula e sumarizar o conteúdo de forma visual, além de facilitar a compreensão por parte dos alunos, mas também em algumas situações as imagens geradas podem não representar fielmente os contextos escolares reais, inclusive alterando contextos sócio-econômicos e culturais e isso é um ponto de atenção, há também o fato de que o professor deve ser uma figura crítica e em constante reflexão e o uso desenfreado da IA pode enfraquecer essas habilidades, a IA deve ser usada como uma ferramenta para auxiliar nas tarefas e não ser o único instrumento de trabalho, ao meu ver o uso da IA pode causar dependência e reduzir o desenvolvimento e autonomia do professor se não for utilizada com consciência.
